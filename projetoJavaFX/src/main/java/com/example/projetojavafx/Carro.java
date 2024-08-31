@@ -44,5 +44,15 @@ public class Carro {
     public void setCombustivel(String combustivel) {
         this.combustivel = combustivel;
     }
+
+    @Override
+    public String toString() {
+        return "Carro{" +
+                "placa='" + placa + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", ano=" + ano +
+                ", combustivel='" + combustivel + '\'' +
+                '}';
+    }
 }
 
